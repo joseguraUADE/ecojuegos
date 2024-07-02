@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Juegos</title>
+  </head>
+  <body>
+
+    <header class="mainHeader">
+      <img src="./src/img/logo.png" alt="logo" class="logo">
+      <img
+        id="menuBtn"
+        src="./src/icons/menuIcon.svg"
+        alt="menuBtn"
+      />
+      <ul class="mainMenu">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./integrantes.html">Integrantes</a></li>
+        <li><a href="./avances.html" >Avances</a></li>
+        <li><a href="./juegos.html"id="selected">Juegos</a></li>
+      </ul>
+    </header>
+<main class="juegosMainSection" style="background-image: url(src/img/background-home.jpg); background-size: cover;
+    background-position: bottom;">
+
+  <div class="juegos">
+    <a target="_blank" class="juegoCard" href="./juego1.html"  >
+      <h1 class="gradiantTxt">
+        Adiviná el Contenedor Correspondiente
+      </h1>
+    <p>
+      Un juego interactivo donde el jugador debe adivinar en qué cesto corresponde tirar cada desecho
+    </p>
+    <p class="gradiantTxt">CLICK PARA JUGAR!</p>
+    <p>Autor: Joaquin Segura</p>
+  
+    </a>
+
+   <a target="_blank" class="juegoCard" href="https://guidojuegoecojuegospy.netlify.app/">
+      <h1 class="gradiantTxt">
+       Esquivalo si puedes!
+      </h1>
+     <p>
+      Se trata de un juego donde el jugador debe mover al personaje para esquivar los distintos obstáculos.
+      </p>
+      <p class="gradiantTxt">CLICK PARA JUGAR!</p>
+      <p>Autor: Guido Jose Saban</p>
+    </a>
+  </div>
+
+</main>
+
+<footer class="mainFooter">
+  <div class="footerTxt">
+    <p>Sitio desarrollado para uso educativo</p>
+    <p>Diseño y Desarrollo Web</p>
+    <p>UADE</p>
+    <p>2024</p>
+  </div>
+</footer>
+
+  <script src="./src/js/index.js"></script>   
+</body>
+</html>

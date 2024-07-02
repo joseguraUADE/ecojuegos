@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivina el Contenedor</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+  <header class="mainHeader">
+    <img src="./src/img/logo.png" alt="logo" class="logo">
+    <img
+      id="menuBtn"
+      src="./src/icons/menuIcon.svg"
+      alt="menuBtn"
+    />
+    <ul class="mainMenu">
+      <li><a href="./index.html" id="selected">Inicio</a></li>
+      <li><a href="./integrantes.html">Integrantes</a></li>
+      <li><a href="./avances.html">Avances</a></li>
+      <li><a href="./juegos.html">Juegos</a></li>
+    </ul>
+  </header>
+  <main>
+    <div class="contenedor">
+    <div class="contAdivina">
+      <div class="adivina">
+        <h1>Adiviná el Contenedor Correspondiente</h1>
+        <p>Selecciona el contenedor correcto para cada residuo</p>
+      </div>
+    </div>
+    <div class="game">
+      <p id="question">¿Dónde debo tirar esta basura: <span id="residue">Papel</span>?</p>
+      <div id="buttons">
+        <button class="option" data-type="paper">Papel</button>
+        <button class="option" data-type="plastic">Plástico</button>
+        <button class="option" data-type="glass">Vidrio</button>
+        <button class="option" data-type="organic">Orgánico</button>
+      </div>
+    </div>
+    <div id="message"></div>
+  </div>
+  </main>
+
+  <footer class="mainFooter">
+    <div class="footerTxt">
+      <p>Sitio desarrollado para uso educativo</p>
+      <p>Diseño y Desarrollo Web</p>
+      <p>UADE</p>
+      <p>2024</p>
+    </div>
+  </footer>
+
+  <script src="./src/js/juego1.js"></script>
+
+</body>
+</html>

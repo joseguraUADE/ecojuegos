@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script> -->
+    <title>ECOJUEGOS | Home</title>
+  </head>
+
+  <body id="dom">
+    <header class="mainHeader">
+      <img src="./src/img/logo.png" alt="logo" class="logo">
+      <img
+        id="menuBtn"
+        src="./src/icons/menuIcon.svg"
+        alt="menuBtn"
+      />
+      <ul class="mainMenu">
+        <li><a href="./index.html" id="selected">Inicio</a></li>
+        <li><a href="./integrantes.html">Integrantes</a></li>
+        <li><a href="./avances.html">Avances</a></li>
+        <li><a href="./juegos.html">Juegos</a></li>
+      </ul>
+    </header>
+
+    <div class="homeMainSection" style="background-image: url(src/img/background-home.jpg);">
+          <h1 class="homeMainSection-txt">
+            Transformando el futuro con energía renovable
+          </h1>
+          <div class="botonera-homeMainSection">
+            <a href="./avances.html" class="mostrarAvances">Avances</a>
+            <a href="./integrantes.html" class="mostrarIntegrantes">Integrantes</a>
+          </div>
+          <a href="#infoImport" class="InformacionImportante">Informacion Importante</a>
+    </div>
+
+    
+    <main class="homeMainContent">
+      <div class="infoContainer" id="infoImport">
+        <p class="infoContainerTitle gradiantTxt">Datos del equipo</p>
+        <div class="infoTarjertasContainer">
+          <div class="infoTarjeta">
+            <h1 class="infoTitle gradiantTxt">Materia</h1>
+            <p class="infoTxt">Diseño y desarrollo web</p>
+          </div>
+          <div class="infoTarjeta">
+            <h1 class="infoTitle gradiantTxt">Equipo</h1>
+            <p class="infoTxt">Grupo 11</p>
+          </div>
+          <div class="infoTarjeta">
+            <h1 class="infoTitle gradiantTxt">Curso</h1>
+            <p class="infoTxt">475144</p>
+          </div>
+          <div class="infoTarjeta">
+            <a href="https://www.uade.edu.ar/?gad_source=1&gclid=Cj0KCQjw4MSzBhC8ARIsAPFOuyWZnsxrU5qqZKWLgB7A-EV3E81XpSf3IhccjWUgUvJ1MQN-hKEF5S0aAqlfEALw_wcB" target=”_blank”>
+              <img
+              src="./src/img/LogoUADE.png"
+              alt="LogoUade"
+              class="infoImg"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="mainFooter">
+      <div class="footerTxt">
+        <p>Sitio desarrollado para uso educativo</p>
+        <p>Diseño y Desarrollo Web</p>
+        <p>UADE</p>
+        <p>2024</p>
+      </div>
+    </footer>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
